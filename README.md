@@ -52,19 +52,8 @@ wiproProject/
 pip install -r requirements.txt
 ```
 
-### 2. Configure Environment Variables (.env)
-Credentials and sensitive parameters are managed via `.env` (git-ignored for security):
-Create or edit `.env` (or copy from `.env.example`):
-```env
-VALID_EMAIL=princraravens@gmail.com
-VALID_PASSWORD=Prince@5804
-BASE_URL=https://tutorialsninja.com/demo/
-BROWSER=chrome
-```
 
-Common non-sensitive defaults remain configurable in `config/config.ini`.
-
-### 3. Register a Test Account (One-time)
+### 2. Register a Test Account (One-time)
 Before running login tests, register a test account at:
 https://tutorialsninja.com/demo/index.php?route=account/register
 
