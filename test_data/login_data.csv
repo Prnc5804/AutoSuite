@@ -1,0 +1,6 @@
+test_id,email,password,expected_result
+TC_LG_001,ENV_VALID_EMAIL,ENV_VALID_PASSWORD,success
+TC_LG_002,invalid_user@test.com,wrongpass,failure
+TC_LG_003,,ENV_VALID_PASSWORD,failure
+TC_LG_004,ENV_VALID_EMAIL,,failure
+TC_LG_005,,,,failure

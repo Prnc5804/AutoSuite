@@ -1,0 +1,6 @@
+test_id,search_term,expected_result
+TC_SR_001,MacBook,found
+TC_SR_002,iMac,found
+TC_SR_003,iPhone,found
+TC_SR_004,Samsung,found
+TC_SR_005,xyznonexistent123,not_found
